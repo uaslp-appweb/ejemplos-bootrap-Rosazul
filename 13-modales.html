@@ -12,53 +12,36 @@
   </head>
   <body>
 
-        <div class="container">
-            <h1>Ejemplo de modales</h1>
-            <button data-toogle="modal" data-target="#mi-modal" class="btn btn-primary">
-                Abrir Modal
-            </button>
+    <div class="container">
+        <h1>Ejemplos de modales</h1>
+        <button data-toggle="modal" data-target="#mi-modal" class="btn btn-primary">Abrir modal</button>
+    </div>
 
-            <div class="modal fade" id="mi-modal">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-header">
-                        <h5 class="modal-title">
-                         Encabezadp
-                        </h5>
-                        <button class="close" data-dismiss="modal">
-                            <span>
-                                &times;
-                            </span>
-                        </button>
-                      
-                    </div>
-                    <div class="modal-body">
-                         <form action="">
-                             <div class="form-group">
-                                 <label for="">
-                                     dime tu nombre
-                                 </label>
-                                 <input type="text" class="form-control">
-                             </div>
-                         </form>
-                    </div>
-                    <div class="modal-footer">
-                         <button class="btn btn-danger" data-dismiss="modal">Cancelar/Cerrar</button>
-                         <button class="btn btn-success">Aceptar</button>
-                     </div>
-                    
-                       
+    <div class="modal fade" id="mi-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Encabezado</h5>
+                    <button class="close"><span>&times;</span></button>
                 </div>
-               
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Dime tu nombre</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-success" data-dismiss="modal">Aceptar</button>
+                </div>
             </div>
-
         </div>
+    </div>
 
-
-
-
-
-
-    <!-- Optional JavaScript -->
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
